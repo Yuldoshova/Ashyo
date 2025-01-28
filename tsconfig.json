@@ -16,6 +16,32 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@redis": [
+        "./src/client"
+      ],
+      "@config": [
+        "./src/config"
+      ],
+      "@decorators": [
+        "./src/decorators"
+      ],
+      "@filters": [
+        "./src/filters"
+      ],
+      "@guards": [
+        "src/guards"
+      ],
+      "@modules": [
+        "./src/modules"
+      ],
+      "@seeds": [
+        "./src/seeds"
+      ],
+      "@utils": [
+        "./src/utils"
+      ]
+    }
   }
 }
